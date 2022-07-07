@@ -1,0 +1,4 @@
+<input type="text" [(ngModel)]="img" size="100">
+<br>
+<br>
+<img [src]="img" alt="avatar" width="300" (error)="onErrorImg()" (load)="imgLoaded()">
